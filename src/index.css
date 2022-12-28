@@ -109,6 +109,7 @@
       min-height: 35px;
       cursor: pointer;
       transition: 0.5s;
+      font-size: 16px;
   }
   
   .eliminar:hover{
@@ -131,6 +132,7 @@
       min-height: 35px;
       transition: 0.5s;
       outline: none;
+      font-size: 16px;
   }
   
   .actualizar:hover{
