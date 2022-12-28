@@ -1,0 +1,214 @@
+
+*{
+
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  }
+  
+  body{
+      background-color: #050507;
+      position: relative;
+     
+  }
+  .Tarea_Listas{
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  
+  }
+  .header-lista{
+      
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 5px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      
+      background-color: #121212;
+      
+  }
+  .crear{
+      background-color: #0F7D39;
+      min-width: 75px;
+      padding: 5px;
+      border-radius: 5px;
+     
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 35px;
+      min-width: 115px;
+      transition: 0.5s;
+     
+  }
+  
+  .crear:hover{
+      background-color: #23a655;
+  }
+  
+  .contenedor_tareas{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 115px;
+     width: 100%;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 15px;
+  margin-left: 5px;   
+  margin-right: 5px; 
+      
+     
+      min-height: 80vh;
+  }
+  
+  .tarea{
+      background-color: #272727;
+      
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 10px 15px 10px;
+      gap: 10px;
+      border-radius: 10px;
+      max-width: 450px;
+  
+  }
+  
+  .botones{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+     
+      width: 100%;
+    
+  }
+  .eliminar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 75px;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: #b53730;
+      border: none;
+      min-height: 35px;
+      cursor: pointer;
+      transition: 0.5s;
+  }
+  
+  .eliminar:hover{
+      
+      background-color: #d75048;
+  
+  }
+  
+  .actualizar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      min-width: 75px;
+      padding: 5px;
+      border-radius: 5px;
+      border: none;
+      background-color: #17568d;
+      text-align: center;
+      min-height: 35px;
+      transition: 0.5s;
+      outline: none;
+  }
+  
+  .actualizar:hover{
+     
+      background-color: #2C7FC9;
+  }
+  
+  @media (min-width: 600px){
+  .contenedor_tareas{
+     
+  
+      flex-direction:row ;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 10px;
+  
+  }
+  
+  
+  }
+
+/* Formulario */
+
+.contenedor_formulario{
+height: 100vh;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+form{
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+  min-height: 50vh;
+  max-width: 90%;
+  width: 450px;
+  
+  justify-content: space-around;
+}
+
+.titulo-formulario{
+  padding: 10px;
+  background-color: #bbafaf1d;
+  text-decoration: none;
+  border: 1px solid #7f838000;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.5s;
+  color: #c5c1c1d9;
+}
+
+.titulo-formulario:focus{
+  border: 1px solid #7f83803b;
+}
+
+.area-texto-formulario{
+  background-color:#bbafaf1d ;
+  outline: none;
+  border: 1px solid #7f838000;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 200px;
+  max-height: 400px;
+  transition: 0.2s;
+  padding: 10px;
+  font-size: 18px;
+  color: #c5c1c1d9;
+  border-radius: 10px;
+}
+
+.area-texto-formulario:focus{
+  border: 1px solid  #7f83803b;
+
+}
