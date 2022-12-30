@@ -28,7 +28,7 @@ function TareaListas() {
           <div className='botones'>
           <button className='eliminar' onClick={() => eliminaTarea(tarea.id)}>Eliminar</button>
           <Link className='actualizar' to={`/editar-tarea/${tarea.id}`}>
-            Actulizar
+            Actualizar
           </Link>
 
           </div>
