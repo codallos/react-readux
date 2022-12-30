@@ -69,7 +69,7 @@ function TareaFormularios() {
       />
       <textarea
         name="descripcion"
-        placeholder="descripcion"
+        placeholder="Descripcion"
         onChange={manejadorDeCambio}
         value={tareas.descripcion}
         className='area-texto-formulario'
